@@ -1,0 +1,28 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+  - テスト: test.md
+  - アドモ: admonition.md
+
+# theme: readthedocs
+
+theme: 
+  name: readthedocs
+  # name: material
+  favicon: ico/ki.png
+  # logo: ico/ki.png
+
+# extra_css:
+#     - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+#     - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
+# theme:
+#   name: material
+#   language: 'ja'
+# extra:
+#   search:
+#     language: 'jp'
